@@ -26,6 +26,9 @@ function CurrentProducts() {
           <div className='Product-Information'>
             <h3 className='Product-Title text-left'>{product.title}</h3>
             <div className='text-left'><b>Description:</b> <span>{product.description}</span></div>
+            <div className='text-left'>
+              <b>Rating:</b> <span>{product.rating.rate} / 5</span>
+            </div>
           </div>
           <div className='Product-Actions'>
             <b>$ {product.price}</b>
