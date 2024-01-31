@@ -52,7 +52,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Shopping App example using Zustand
+          Shopping App using Zustand
         </p>
       </header>
       <CartBadge />
